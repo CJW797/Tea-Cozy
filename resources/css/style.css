@@ -1,0 +1,124 @@
+body {
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  opacity: 0.9;
+  font-size: 22px;
+}
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  z-index: 20;
+  background-color: black;
+  width: 100%;
+}
+nav {
+  display: inline-block;
+  position: fixed;
+  top: 30px;
+  right: 15px;
+}
+a {
+  color: seashell;
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+.mission h2 {
+  width: 1200px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 8px;
+  margin-bottom: 0;
+}
+h4 {
+  width: 1200px;
+  height: 45px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+h6 {
+  text-align: left;
+  display: flex;
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+p {
+  margin: 40px 0px;
+}
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+.mission {
+  background-image:
+  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 110px;
+  position: relative;
+  top: 69px;
+}
+.tea {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: 110px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.ch2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.ch3 {
+  width: 100%;
+  margin-top: 30px;
+}
+.totm {
+  width: 300px;
+  height: 200px;
+}
+.location {
+  background-image:
+  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  top: 150px;
+  width: 1200px;
+  height: 550px;
+  margin: auto;
+}
+.downtown, .east-bayside, .oakdale {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 10px 20px;
+  text-align: center;
+}
+footer {
+  height: 200px;
+  display: flex;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  justify-content: center;
+}
